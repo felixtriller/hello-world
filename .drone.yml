@@ -13,3 +13,4 @@ steps:
     repo: felixtriller/hello-world
     tags: latest
     debug: true
+    launch_debug: true
