@@ -2,7 +2,7 @@ FROM alpine
 
 RUN apk add --no-cache thttpd
 
-ADD index.html /var/www/index.html
+COPY index.html /var/www/index.html
 
 EXPOSE 8080
 
